@@ -1,72 +1,97 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "almond",
+  "name": "Annapurna Art",
+  "description": "Discover, buy, and sell original artworks from artists around the world. Annapurna Art connects creators, collectors, and art enthusiasts through a trusted marketplace, virtual exhibitions, physical gallery experiences, and expert art advisory services.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f06a69",
+    "light": "#edb4b4",
+    "dark": "#f79494"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://media.brand.dev/86f8c587-5fa6-4306-98d9-da4d8dfe9624.jpg",
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Homepage ",
+          "icon": "image",
+          "href": "https://annapurnaart.com"
         }
       ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
+    },
+    "tabs": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "tab": "Annapurna Art ",
+        "pages": [
+          "index",
+          "about-us",
+          "blogs",
+          "exhibitions"
+        ]
+      },
+      {
+        "tab": "For Artists",
+        "pages": [
+          "artist-support",
+          "getting-started",
+          "apply-to-sell",
+          "terms-and-conditions"
+        ]
+      },
+      {
+        "tab": "For Buyers",
+        "pages": [
+          "buyer-support",
+          "art-adviosary",
+          "shipping-and-delivery-1",
+          "terms-and-condition"
+        ]
+      },
+      {
+        "tab": "Policies",
+        "pages": [
+          "cookie-policy",
+          "privacy-policy",
+          "tax-policy",
+          "return-policy"
+        ]
+      },
+      {
+        "tab": "Contact us",
+        "href": "https://annapurnaart.com/contact-us"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "logo": {
+    "light": "https://annapurnaart.com/header_logo.png",
+    "dark": "https://annapurnaart.com/header_logo.png"
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Browse Art",
+      "href": "https://annapurnaart.com/category/all/arts"
     }
+  },
+  "footer": {
+    "socials": {}
+  },
+  "redirects": [
+    {
+      "source": "/art-advisory",
+      "destination": "/art-adviosary",
+      "permanent": true
+    }
+  ],
+  "contextual": {
+    "options": [],
+    "display": "header"
   }
 }

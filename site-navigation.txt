@@ -1,0 +1,51 @@
+Annapurna Art Docs — Site Navigation
+=====================================
+
+TABS & PAGES
+------------
+
+Annapurna Art
+  Annapurna Art (homepage)  ->  /                          (index.mdx)
+  About Us                  ->  /about-us                  (about-us.mdx)
+  Blog                      ->  /blogs                     (blogs.mdx)
+  Exhibitions               ->  /exhibitions                (exhibitions.mdx)
+
+For Artists
+  Apply to Sell [!]         ->  /artist-support             (artist-support.mdx)
+  How to Upload Your Artwork ->  /getting-started            (getting-started.mdx)
+  Artist Support [!]        ->  /apply-to-sell              (apply-to-sell.mdx)
+  Terms & Conditions        ->  /terms-and-conditions       (terms-and-conditions.mdx)
+
+For Buyers
+  Buyer Support             ->  /buyer-support              (buyer-support.mdx)
+  Art Advisory               ->  /art-adviosary              (art-adviosary.mdx)
+  Shipping & Delivery        ->  /shipping-and-delivery-1    (shipping-and-delivery-1.mdx)
+  Terms & Conditions        ->  /terms-and-condition        (terms-and-condition.mdx)
+
+Policies
+  Cookie Policy              ->  /cookie-policy              (cookie-policy.mdx)
+  Privacy Policy             ->  /privacy-policy             (privacy-policy.mdx)
+  Tax Policy                 ->  /tax-policy                 (tax-policy.mdx)
+  Return Policy              ->  /return-policy              (return-policy.mdx)
+
+Contact us
+  (external link only, no in-site page)  ->  https://annapurnaart.com/contact-us
+
+EXTERNAL LINKS (outside the tabs)
+----------------------------------
+  Homepage anchor (top of sidebar)  ->  https://annapurnaart.com
+  Browse Art button (navbar CTA)     ->  https://annapurnaart.com/category/all/arts
+
+REDIRECT
+--------
+  /art-advisory  ->  /art-adviosary  (permanent)
+
+NOTES
+-----
+[!] Likely swapped titles: artist-support.mdx is titled "Apply to Sell" and
+    apply-to-sell.mdx is titled "Artist Support" — filenames and displayed
+    titles are crossed.
+
+    Two separate pages are both titled "Terms & Conditions":
+      - /terms-and-conditions  (for artists)
+      - /terms-and-condition   (for buyers, note singular URL)

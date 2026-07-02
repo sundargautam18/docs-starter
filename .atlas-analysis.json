@@ -1,0 +1,105 @@
+{
+  "projectType": "saas",
+  "projectName": "Annapurna Art",
+  "projectDescription": "An online art gallery and marketplace connecting global artists with collectors, offering original artworks across painting, sculpture, digital art, and more — with virtual and physical exhibitions.",
+  "theme": "willow",
+  "primaryColor": "#f06a69",
+  "lightColor": "#edb4b4",
+  "darkColor": "#f79494",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Buyers",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "buyers/introduction",
+              "buyers/browsing-art",
+              "buyers/filtering-and-search"
+            ]
+          },
+          {
+            "group": "Purchasing",
+            "pages": [
+              "buyers/buying-artwork",
+              "buyers/payments",
+              "buyers/shipping-and-delivery"
+            ]
+          },
+          {
+            "group": "Exhibitions",
+            "pages": [
+              "buyers/virtual-exhibition",
+              "buyers/physical-exhibition"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "buyers/account-setup",
+              "buyers/wishlist-and-cart",
+              "buyers/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Artists",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "artists/introduction",
+              "artists/create-account",
+              "artists/artist-dashboard"
+            ]
+          },
+          {
+            "group": "Selling Your Art",
+            "pages": [
+              "artists/uploading-artwork",
+              "artists/managing-orders",
+              "artists/payments-and-earnings"
+            ]
+          },
+          {
+            "group": "Exhibitions",
+            "pages": [
+              "artists/virtual-exhibition",
+              "artists/physical-exhibition",
+              "artists/featured-artist"
+            ]
+          },
+          {
+            "group": "Tips & Support",
+            "pages": [
+              "artists/artwork-photography",
+              "artists/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Browse and buy original artworks across 7 categories: painting, drawing, mixed media, printmaking, sculpture, digital, and photography",
+    "Advanced filtering by style, medium, subject, material, color, orientation, size, and price",
+    "Artist profiles with verified artwork listings and follower system",
+    "Virtual exhibition builder — artists can create and publish immersive online exhibitions",
+    "Physical gallery exhibitions held in Bhaktapur, Nepal with QR-code-based hidden art reveal",
+    "Secure payments via Khalti (Nepal), Stripe, and credit/debit cards",
+    "Shipping handled by Annapurna Art specialists — artists only need to package",
+    "Supplier dashboard for artists to manage portfolio, track orders, and monitor sales",
+    "Featured artist program with curator-selected spotlights",
+    "Newsletter and global collector community"
+  ],
+  "publicApiSurface": [
+    "Artist signup at artist.annapurnaart.com/signup",
+    "Art browse at /category/{id}/{name} with filters: style, medium, subject, material, color, orientation, size, price",
+    "Artist profile at /artist/{id}",
+    "Product detail at /product/{id}",
+    "Virtual exhibition viewer at /exhibition",
+    "Trending artworks at /trendingarts"
+  ]
+}
