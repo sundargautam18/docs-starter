@@ -2,6 +2,7 @@
   --default-border-color: var(--gray-200);
 }
 
+/* added */
 .dark {
   --default-border-color: var(--gray-800);
 }
